@@ -95,7 +95,7 @@ paths:
                 UPDATE_DETAILS:
                   value:
                     name: 'XYZ Fone'
-                    type: 'gadget'
+                    item: 'gadget'
                     inventory: 10
                     packed: 'Item Packed'
                     id: 10
@@ -206,6 +206,7 @@ paths:
                   name: 'XYZ Laptop'
                   type: 'gadget'
                   inventory: 10
+                  packed: 'Item Packed'
     get:
       summary: Search for products
       operationId: get-products
@@ -224,12 +225,14 @@ paths:
                     - name: 'XYZ Fone'
                       type: 'gadget'
                       inventory: 10
+                      packed: 'Item Packed'
                       id: 3
                 SEARCH_2:
                   value:
                     - name: 'XYZ Fone'
                       type: 'gadget'
                       inventory: 10
+                      packed: 'Item Packed'
                       id: 3
         '500':
           description: Internal error
