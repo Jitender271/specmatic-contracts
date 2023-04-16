@@ -125,7 +125,7 @@ paths:
               UPDATE_DETAILS:
                 value:
                   name: 'XYZ Fone'
-                  type: 'gadget'
+                  item: 'gadget'
                   inventory: 10
                   packed: 'Item Packed'
                   id: 10
