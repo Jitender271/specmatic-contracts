@@ -11,13 +11,16 @@ components:
       properties:
         name:
           type: string
-        type:
+        item:
           $ref: '#/components/schemas/ProductType'
         inventory:
           type: integer
+        packed:
+          type: string
       required:
         - name
-        - type
+        - item
+        - packed
         - inventory
     ProductType:
       type: string
