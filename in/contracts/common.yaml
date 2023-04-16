@@ -20,8 +20,8 @@ components:
       required:
         - name
         - item
-        - packed
         - inventory
+        - packed
     ProductType:
       type: string
       title: Product Type
