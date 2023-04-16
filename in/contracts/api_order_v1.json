@@ -1,0 +1,6 @@
+{
+  "pipelines": [
+    {"owner":  "Jitender271", "repo":  "order-api", "event_type":  "contracts changed"}
+  ]
+
+}
